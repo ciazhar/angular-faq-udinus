@@ -1,11 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+.navj {
+    background-image: -webkit-linear-gradient(top,#003478 0,#052C52 100%);
+    background-image: -o-linear-gradient(top,#003478 0,#052C52 100%);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#003478),to(#052C52));
+    background-image: linear-gradient(to bottom,#003478 0,#052C52 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff337ab7', endColorstr='#ff265a88', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+    background-repeat: repeat-x;
+    border-color: #245580;
+}
+
 /*
  * Base structure
  */
 
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
-  padding-top: 50px;
+  padding-top: 0px;
 }
 
 
