@@ -102,14 +102,6 @@
                 <div class="form-group">
                     <input type="text" class="form-control form-en input-sm" id="nama" name="nama" required placeholder="Cari . . .">
                 </div>
-                <div class="form-group">
-                    <select class="form-control form-en input-sm" onchange="change(event)" name="kategori">
-                        <option>People</option>
-                        <option>Paper</option>
-                        <option>News</option>
-                        <option>Scholarship</option>
-                    </select>
-                </div>
                 <script type="text/javascript">
                     function change(e){
                         if($(e.target).val()=="Scholarship"){$("#nama").addClass("hide");$("#nama").val("Scholarship");}
@@ -117,7 +109,6 @@
                     }
                 </script>
                 <button type="submit" name="search" class="btn btn-default btn-sm btn-en"><i class="fa fa-search"></i></button>
-                <a href="http://id.dinus.ac.id/" title="Indonesia (ID)" target="_blank"><img src="http://dinus.ac.id/img/icon/indo flag.ico" width="25px" style="margin-left:10px;"></a>
             </form>
 
 
