@@ -32,6 +32,8 @@ import { AskAQuestionComponent } from './ask-a-question/ask-a-question.component
 
 const routingAplikasi: Routes = [
   { path: "akademik", redirectTo: "/transaksi", pathMatch: "full"},
+  { path: "home", component: HomeComponent },
+  { path: "ask-a-question", component: AskAQuestionComponent },
 ]
 
 
