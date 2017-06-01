@@ -27,6 +27,8 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { FooterComponent } from './footer/footer.component';
+import { HomeComponent } from './home/home.component';
+import { AskAQuestionComponent } from './ask-a-question/ask-a-question.component';
 
 const routingAplikasi: Routes = [
   { path: "akademik", redirectTo: "/transaksi", pathMatch: "full"},
@@ -38,7 +40,9 @@ const routingAplikasi: Routes = [
     AppComponent,
     NavbarComponent,
     SidebarComponent,
-    FooterComponent
+    FooterComponent,
+    HomeComponent,
+    AskAQuestionComponent
   ],
   imports: [
     BrowserModule,
