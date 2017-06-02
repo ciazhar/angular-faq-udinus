@@ -38,7 +38,7 @@
 
                                 <li class="dropdown-submenu">
                                     <a tabindex="0" data-toggle="dropdown" style="cursor:pointer;">Undergraduate</a>
-                                    <ul class="dropdown-menu">
+                                    <ul class="dropdown-menu menu-utama">
                                         <li><a href="http://dinus.ac.id/why">Why UDINUS</a></li>
                                         <li><a href="http://dinus.ac.id/aply">Register to Dinus</a></li>
                                         <li><a href="http://dinus.ac.id/fees">Fees & Funding</a></li>
@@ -93,19 +93,8 @@
                                 <li><a href="http://www.dinus.ac.id/faq/" target="_blank">FAQ </a></li>
                             </ul>
                         </li>
-                        <li id="lain" class="menu dropdown hide">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="border-right: 1px solid #245580;">OTHERS</a>
-                            <ul class="dropdown-menu menu-utama">
-                                <li data-toggle="tooltip" data-placement="bottom" title="Page for Dinus prospective students"><a href="http://dinus.ac.id/prospective" style="">Prospective Students</a></li>
-                                <li data-toggle="tooltip" data-placement="bottom" title="Page for Dinus Students"><a href="http://dinus.ac.id/student" style="">Students</a></li>
+                        <li class="menu"><a routerLink="/home" style="border-right: 1px solid #245580;">FAQ</a></li>  
 
-
-                                <li data-toggle="tooltip" data-placement="bottom" title="Page for Dinus Staff or Lecturer"><a href="http://dinus.ac.id/staf" style="">Staff</a></li>
-                                <li data-toggle="tooltip" data-placement="bottom" title="Page for Dinus Student's Parents"><a href="http://dinus.ac.id/parents" style="">Parents</a></li>
-                                <li data-toggle="tooltip" data-placement="bottom" title="International"><a href="http://dinus.ac.id/ia" target="_blank" style="">International Office</a></li>
-                                <li data-toggle="tooltip" data-placement="bottom" title="Page for Dinus Alumni"><a href="http://alumni.dinus.ac.id/">Alumni</a></li>
-                            </ul>
-                        </li>
 
 
                         <button type="button" id="sr" class="btn btn-default mna menu dropdown hide" aria-label="Left Align">
@@ -119,6 +108,7 @@
                         </div>
                         <div class="form-group">
                             <select class="form-control form-en input-sm" onchange="change(event)" name="kategori">
+                                <option>Question</option>
                                 <option>People</option>
                                 <option>Paper</option>
                                 <option>News</option>
