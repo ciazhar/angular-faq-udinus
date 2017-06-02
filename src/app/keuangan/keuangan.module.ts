@@ -8,9 +8,9 @@ import { StatusPembayaranComponent } from './status-pembayaran/status-pembayaran
 import { TagihanComponent } from './tagihan/tagihan.component';
 
 const routingKeuangan : Routes = [
-  { path: "career-center/rekening-pembayaran", component: RekeningPembayaranComponent },
-  { path: "career-center/status-pembayaran", component: StatusPembayaranComponent },
-  { path: "career-center/tagihan", component: TagihanComponent }
+  { path: "keuangan/rekening-pembayaran", component: RekeningPembayaranComponent },
+  { path: "keuangan/status-pembayaran", component: StatusPembayaranComponent },
+  { path: "keuangan/tagihan", component: TagihanComponent }
 ]
 
 @NgModule({

@@ -1,3 +1,20 @@
 .white{color: #FFFFFF}
 
 .logodinus{text-align: left;}
+.form-en {
+    color: #FFFFFF;
+    background-color: #033061;
+    background-image: none;
+    border: 1px solid #245580;
+    border-radius: 0px;
+}
+.btn-en {
+    color: #AFB9C5;
+    background-color: #033061;
+    border-color: #245580;
+}
+.btn-en:hover {
+    color: #FFFFFF;
+    background-color: #033061;
+    border-color: #245580;
+}
