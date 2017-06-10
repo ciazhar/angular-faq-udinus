@@ -1,178 +1,90 @@
-<div class="col-xs-2 col-sm-2 col-md-2 blablabla">
-  <ul class="nav nav-sidebar">
-    <li class="active list-group-item" style="background-color:#428bca;padding: 0px 15px"><a routerLink="/">FAQ</a></li>
-    <li class="active list-group-item" style="background-color:#428bca;padding: 0px 15px"><a data-toggle="collapse" href="#akademik">Akademik  <i class="fa fa-caret-down"style="position:absolute; right:23px"></i> </a></li>
-    <div id="akademik" class="panel-collapse collapse out sublist">
-      <ul>
-        <li><a routerLink="/akademik/aktifasi">Aktifasi</a></li>
-        <li><a routerLink="/akademik/heregristrasi">Heregritasi</a></li>
-        <li><a routerLink="/akademik/ijazah">Ijazah</a></li>
-        <li><a routerLink="/akademik/informasi-kelas-kosong">Informasi Kelas Kosong</a></li>
-        <li><a routerLink="/akademik/krs">KRS</a></li>
-        <li><a routerLink="/akademik/ktm">KTM</a></li>
-        <li><a routerLink="/akademik/permohonan-cuti">Permohonan Cuti</a></li>
-        <li><a routerLink="/akademik/regristrasi">Registrasi</a></li>
-        <li><a routerLink="/akademik/transkrip">Transkrip</a></li>
-        <li><a routerLink="/akademik/wisuda">Wisuda</a></li>
-      </ul>
+<div class="side-menu  col-md-1" style="margin-right:10px; margin-bottom:50px">
+
+    <nav class="navbar navbar-default" role="navigation">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+        <div class="brand-wrapper">
+            <!-- Hamburger -->
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <!-- Brand -->
+            <div class="brand-name-wrapper">
+                <a class="navbar-brand" href="#">
+                    Brand
+                </a>
+            </div>
+
+            <!-- Search -->
+            <a data-toggle="collapse" href="#search" class="btn btn-default" id="search-trigger">
+                <span class="glyphicon glyphicon-search"></span>
+            </a>
+
+            <!-- Search body -->
+            <div id="search" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <form class="navbar-form" role="search">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                        </div>
+                        <button type="submit" class="btn btn-default "><span class="glyphicon glyphicon-ok"></span></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
     </div>
 
-    <li class="active list-group-item" style="background-color:#428bca;padding: 0px 15px"><a data-toggle="collapse" href="#alumni">Alumni <i class="fa fa-caret-down"style="position:absolute; right:23px"></i> </a></li>
-    <div id="alumni" class="panel-collapse collapse out sublist">
-      <ul>
-        <li><a routerLink="/alumni/tracing-alumni">Tracing Alumni</a></li>
-      </ul>
-    </div>
+    <!-- Main Menu -->
+    <div class="side-menu-container">
+        <ul class="nav navbar-nav">
 
-    <li class="active list-group-item" style="background-color:#428bca;padding: 0px 15px"><a data-toggle="collapse" href="#career-center">Career Center<i class="fa fa-caret-down"style="position:absolute; right:23px"></i> </a></li>
-    <div id="career-center" class="panel-collapse collapse out sublist">
-      <ul>
-        <li><a routerLink="/career-center/info-lowongan" >Info Lowongan</a></li>
-      </ul>
-    </div>
+            <li><a href="#"><span class="glyphicon glyphicon-send"></span> Link</a></li>
+            <li class="active"><a href="#"><span class="glyphicon glyphicon-plane"></span> Active Link</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-cloud"></span> Link</a></li>
 
-    <li class="active list-group-item" style="background-color:#428bca;padding: 0px 15px"><a data-toggle="collapse" href="#hospitality">Hospotality  <i class="fa fa-caret-down"style="position:absolute; right:23px"></i> </a></li>
-    <div id="hospitality" class="panel-collapse collapse out sublist">
-      <ul>
-        <li><a routerLink="/hospitality/call-center">Call Center</a></li>
-        <li><a routerLink="/hospitality/online-yahoo">Online Yahoo</a></li>
-        <li><a routerLink="/hospitality/sms-center">SMS Center</a></li>
-      </ul>
-    </div>
+            <!-- Dropdown-->
+            <li class="panel panel-default" id="dropdown">
+                <a data-toggle="collapse" href="#dropdown-lvl1">
+                    <span class="glyphicon glyphicon-user"></span> Sub Level <span class="caret"></span>
+                </a>
 
-    <li class="active list-group-item" style="background-color:#428bca;padding: 0px 15px"><a data-toggle="collapse" href="#kemahasiswaan">Kemahasiswaan  <i class="fa fa-caret-down"style="position:absolute; right:23px"></i> </a></li>
-    <div id="kemahasiswaan" class="panel-collapse collapse out sublist">
-      <ul>
-        <li><a routerLink="/kemahasiswaan/beasiswa">Beasiswa</a></li>
-        <li><a routerLink="/kemahasiswaan/komunitas">Komunitas</a></li>
-        <li><a routerLink="/kemahasiswaan/mawapres">Mawapres</a></li>
-        <li><a routerLink="/kemahasiswaan/organisasi-atau-himpunan-mahasiswa">Organisasi/Himpunan Mahasiswa</a></li>
-        <li><a routerLink="/kemahasiswaan/penelitian-atau-karya-ilmiah">Penelitian/Karya Ilmiah</a></li>
-        <li><a routerLink="/kemahasiswaan/unit-kegiatan-mahasiswa">Unit Kegiatan Mahasiswa</a></li>
-      </ul>
-    </div>
+                <!-- Dropdown level 1 -->
+                <div id="dropdown-lvl1" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#">Link</a></li>
+                            <li><a href="#">Link</a></li>
+                            <li><a href="#">Link</a></li>
 
-    <li class="active list-group-item" style="background-color:#428bca;padding: 0px 15px"><a data-toggle="collapse" href="#kepegawaian">Kepegawaian <i class="fa fa-caret-down"style="position:absolute; right:23px"></i> </a></li>
-    <div id="kepegawaian" class="panel-collapse collapse out sublist">
-      <ul>
-        <li><a routerLink="/kepegawaian/beban-kinerja-dosen">Beban Kinerja Dosen</a></li>
-        <li><a routerLink="/kepegawaian/informasi-dosen">Informasi Dosen</a></li>
-        <li><a routerLink="/kepegawaian/informasi-pegawai">Informasi Pegawai</a></li>
-        <li><a routerLink="/kepegawaian/serdos">Serdos</a></li>
-      </ul>
-    </div>
+                            <!-- Dropdown level 2 -->
+                            <li class="panel panel-default" id="dropdown">
+                                <a data-toggle="collapse" href="#dropdown-lvl2">
+                                    <span class="glyphicon glyphicon-off"></span> Sub Level <span class="caret"></span>
+                                </a>
+                                <div id="dropdown-lvl2" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <ul class="nav navbar-nav">
+                                            <li><a href="#">Link</a></li>
+                                            <li><a href="#">Link</a></li>
+                                            <li><a href="#">Link</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
 
-    <li class="active list-group-item" style="background-color:#428bca;padding: 0px 15px"><a data-toggle="collapse" href="#keuangan">Keuangan <i class="fa fa-caret-down"style="position:absolute; right:23px"></i> </a></li>
-    <div id="keuangan" class="panel-collapse collapse out sublist">
-      <ul>
-        <li><a routerLink="/keuangan/rekening-pembayaran">Rekening Pembayaran</a></li>
-        <li><a routerLink="/keuangan/status-pembayaran">Status Pembayaran</a></li>
-        <li><a routerLink="/keuangan/tagihan">Tagihan</a></li>
-      </ul>
-    </div>
+            <li><a href="#"><span class="glyphicon glyphicon-signal"></span> Link</a></li>
 
-    <li class="active list-group-item" style="background-color:#428bca;padding: 0px 15px"><a data-toggle="collapse" href="#laboratorium">Laboratorium  <i class="fa fa-caret-down"style="position:absolute; right:23px"></i> </a></li>
-    <div id="laboratorium" class="panel-collapse collapse out sublist">
-      <ul>
-        <li><a routerLink="/laboratorium/jenis-dan-kegiatan">Jenis dan Kategori</a></li>
-        <li><a routerLink="/laboratorium/letak-laboratorium">Letak Laboratorium</a></li>
-      </ul>
-    </div>
+        </ul>
+    </div><!-- /.navbar-collapse -->
+</nav>
 
-    <li class="active list-group-item" style="background-color:#428bca;padding: 0px 15px"><a data-toggle="collapse" href="#layanan-poliklinik">Layanan Poliklinik  <i class="fa fa-caret-down"style="position:absolute; right:23px"></i> </a></li>
-    <div id="layanan-poliklinik" class="panel-collapse collapse out sublist">
-      <ul>
-        <li><a routerLink="/layanan-poliklinik/layanan-poliklinik">Layanan Poliklinik</a></li>
-      </ul>
     </div>
-
-    <li class="active list-group-item" style="background-color:#428bca;padding: 0px 15px"><a data-toggle="collapse" href="#parkir">Parkir <i class="fa fa-caret-down"style="position:absolute; right:23px"></i> </a></li>
-    <div id="parkir" class="panel-collapse collapse out sublist">
-      <ul>
-        <li><a routerLink="parkir/kehilangan">Kehilangan</a></li>
-        <li><a routerLink="parkir/keluar-masuk">Keluar Masuk</a></li>
-        <li><a routerLink="parkir/tempat-parkir">Tempat Parkir</a></li>
-      </ul>
-    </div>
-
-    <li class="active list-group-item" style="background-color:#428bca; font-size:12px;padding: 0px 15px"><a data-toggle="collapse" href="#penelitian-dan-pengabdian">Penelitian dan Pengabdian <i class="fa fa-caret-down"style="position:absolute; right:23px"></i> </a></li>
-    <div id="penelitian-dan-pengabdian" class="panel-collapse collapse out sublist">
-      <ul>
-        <li><a routerLink="penelitian-dan-pengabdian/penelitian">Penelitian</a></li>
-        <li><a routerLink="penelitian-dan-pengabdian/pengabdian">Pengabdian</a></li>
-        <li><a routerLink="penelitian-dan-pengabdian/rencana-induk-penelitian">RIP (Rencana Induk Penelitian)</a></li>
-      </ul>
-    </div>
-
-    <li class="active list-group-item" style="background-color:#428bca; font-size:12px;padding: 0px 15px"><a data-toggle="collapse" href="#pengumuman-akademik">Pengumuman Akademik <i class="fa fa-caret-down"style="position:absolute; right:23px"></i> </a></li>
-    <div id="pengumuman-akademik" class="panel-collapse collapse out sublist">
-      <ul>
-        <li><a routerLink="pengumuman-akademik/berita">Berita</a></li>
-        <li><a routerLink="pengumuman-akademik/internal">Internal</a></li>
-      </ul>
-    </div>
-
-    <li class="active list-group-item" style="background-color:#428bca;padding: 0px 15px"><a data-toggle="collapse" href="#percetakan">Percetakan <i class="fa fa-caret-down"style="position:absolute; right:23px"></i> </a></li>
-    <div id="percetakan" class="panel-collapse collapse out sublist">
-      <ul>
-        <li><a routerLink="percetakan/lokasi-percetakan">Lokasi Percetakan</a></li>
-        <li><a routerLink="percetakan/modul-kuliah">Modul Kuliah</a></li>
-      </ul>
-    </div>
-
-    <li class="active list-group-item" style="background-color:#428bca;padding: 0px 15px"><a data-toggle="collapse" href="#perpustakaan">Perpustakaan <i class="fa fa-caret-down"style="position:absolute; right:23px"></i> </a></li>
-    <div id="perpustakaan" class="panel-collapse collapse out sublist">
-      <ul>
-        <li><a routerLink="perpustakaan/buku-text">Buku Text</a></li>
-        <li><a routerLink="perpustakaan/e-book">e-Book</a></li>
-        <li><a routerLink="perpustakaan/jurnal">Jurnal</a></li>
-        <li><a routerLink="perpustakaan/letak-perpustakaan">Letak Perpustakaan</a></li>
-        <li><a routerLink="perpustakaan/prosedur-pengembalian">Prosedur Pengembalian</a></li>
-        <li><a routerLink="perpustakaan/prosedur-pinjam">Prosedur Pinjam</a></li>
-        <li><a routerLink="perpustakaan/skripsi-atau-tugas-akhir">Skripsi/Tugas Akhir</a></li>
-      </ul>
-    </div>
-
-    <li class="active list-group-item" style="background-color:#428bca;padding: 0px 15px"><a data-toggle="collapse" href="#semester-pendek">Semester Pendek <i class="fa fa-caret-down"style="position:absolute; right:23px"></i> </a></li>
-    <div id="semester-pendek" class="panel-collapse collapse out sublist">
-      <ul>
-        <li><a routerLink="semester-pendek/absensi">Absensi</a></li>
-        <li><a routerLink="semester-pendek/pendaftaran-sp">Pendaftaran SP</a></li>
-        <li><a routerLink="semester-pendek/proses-krs">Proses KRS</a></li>
-        <li><a routerLink="semester-pendek/ujian-akhir-semester">Ujian Akhir Semester</a></li>
-        <li><a routerLink="semester-pendek/ujian-tengah-semester">Ujian Tengah Semester</a></li>
-      </ul>
-    </div>
-
-    <li class="active list-group-item" style="background-color:#428bca;padding: 0px 15px"><a data-toggle="collapse" href="#semester-reguler">Semester Reguler <i class="fa fa-caret-down"style="position:absolute; right:23px"></i> </a></li>
-    <div id="semester-reguler" class="panel-collapse collapse out sublist">
-      <ul>
-        <li><a routerLink="semester-reguler/absensi">Absensi</a></li>
-        <li><a routerLink="semester-reguler/pendaftaran-semester-pendek">Pendaftaran Semester Pendek</a></li>
-        <li><a routerLink="semester-reguler/proses-krs">Proses KRS</a></li>
-        <li><a routerLink="semester-reguler/ujian-tengah-dan-akhir-semester">Ujian Tengah dan Akhir Semester</a></li>
-      </ul>
-    </div>
-
-    <li class="active list-group-item" style="background-color:#428bca;padding: 0px 15px"><a data-toggle="collapse" href="#siadin">SiAdin <i class="fa fa-caret-down"style="position:absolute; right:23px"></i> </a></li>
-    <div id="siadin" class="panel-collapse collapse out sublist">
-      <ul>
-        <li><a routerLink="si-adin/e-mail">E-mail</a></li>
-        <li><a routerLink="si-adin/jenis-dan-kategori">Jenis & Kategori</a></li>
-        <li><a routerLink="si-adin/layanan">Layanan</a></li>
-        <li><a routerLink="si-adin/login">Login</a></li>
-      </ul>
-    </div>
-
-    <li class="active list-group-item" style="background-color:#428bca;padding: 0px 15px"><a data-toggle="collapse" href="#wisuda">Wisuda <i class="fa fa-caret-down"style="position:absolute; right:23px"></i> </a></li>
-    <div id="wisuda" class="panel-collapse collapse out sublist">
-      <ul>
-        <li><a routerLink="wisuda/hal-hal-penting">Hal-hal penting</a></li>
-        <li><a routerLink="wisuda/mekanisme-wisuda">Mekanisme Wisuda</a></li>
-        <li><a routerLink="wisuda/syarat-pendaftaran-wisuda">Syarat Pendaftaran Wisuda</a></li>
-        <li><a routerLink="wisuda/tanggal-pelaksanaan">Tanggal Pelaksanaan</a></li>
-      </ul>
-    </div>
-    <li class="active list-group-item" style="background-color:#428bca;padding: 0px 15px"><a routerLink="/ask-a-question">Ask A Question ! </a></li>
-  </ul>
-</div>
