@@ -1,3 +1,9 @@
+<style>
+  .side{
+    margin: auto;
+    padding: auto;
+  }
+</style>
 <div class="overlay"></div>
 <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
     <span class="hamb-top"></span>
@@ -7,210 +13,183 @@
     <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
       <ul class="nav sidebar-nav">
           <li style="margin:0px;" class="sidebar-brand">
-              <a routerLink="/">
-                 Home
-              </a>
+              <a class="side" data-toggle="offcanvas"routerLink="/">Home</a>
           </li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Akademik <span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
-              <li class="dropdown-header">Dropdown heading </li>
-              <li style="top:0px;"class="hamburger" data-toggle="offcanvas"><a href="#">Action</a></li>
-              <li><a href="#">Another action</a></li>
-              <li><a href="#">Something else here</a></li>
-              <li><a href="#">Separated link</a></li>
-              <li><a href="#">One more separated link</a></li>
+              <li style="font-size:0px;line-height:0px;" hidden="hidden"></li>
+              <li><a class="side" data-toggle="offcanvas" routerLink="/akademik/aktifasi">Aktifasi</a></li>
+              <li><a class="side" data-toggle="offcanvas"routerLink="/akademik/heregristrasi">Heregritasi</a></li>
+              <li><a class="side" data-toggle="offcanvas"routerLink="/akademik/ijazah">Ijazah</a></li>
+              <li><a class="side" data-toggle="offcanvas"routerLink="/akademik/informasi-kelas-kosong">Informasi Kelas Kosong</a></li>
+              <li><a class="side" data-toggle="offcanvas"routerLink="/akademik/krs">KRS</a></li>
+              <li><a class="side" data-toggle="offcanvas"routerLink="/akademik/ktm">KTM</a></li>
+              <li><a class="side" data-toggle="offcanvas"routerLink="/akademik/permohonan-cuti">Permohonan Cuti</a></li>
+              <li><a class="side" data-toggle="offcanvas"routerLink="/akademik/regristrasi">Registrasi</a></li>
+              <li><a class="side" data-toggle="offcanvas"routerLink="/akademik/transkrip">Transkrip</a></li>
+              <li><a class="side" data-toggle="offcanvas"routerLink="/akademik/wisuda">Wisuda</a></li>
             </ul>
           </li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Alumni <span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
-              <li class="dropdown-header">Dropdown heading</li>
-              <li><a href="#">Action</a></li>
-              <li><a href="#">Another action</a></li>
-              <li><a href="#">Something else here</a></li>
-              <li><a href="#">Separated link</a></li>
-              <li><a href="#">One more separated link</a></li>
+              <li style="font-size:0px;line-height:0px;" hidden="hidden"></li>
+              <li><a class="side" data-toggle="offcanvas"routerLink="/alumni/tracing-alumni">Tracing Alumni</a></li>
             </ul>
           </li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Career Center <span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
-              <li class="dropdown-header">Dropdown heading</li>
-              <li><a href="#">Action</a></li>
-              <li><a href="#">Another action</a></li>
-              <li><a href="#">Something else here</a></li>
-              <li><a href="#">Separated link</a></li>
-              <li><a href="#">One more separated link</a></li>
+              <li style="font-size:0px;line-height:0px;" hidden="hidden"></li>
+               <li><a class="side" data-toggle="offcanvas"routerLink="/career-center/info-lowongan" >Info Lowongan</a></li>
             </ul>
           </li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Hospitality <span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
-              <li class="dropdown-header">Dropdown heading</li>
-              <li><a href="#">Action</a></li>
-              <li><a href="#">Another action</a></li>
-              <li><a href="#">Something else here</a></li>
-              <li><a href="#">Separated link</a></li>
-              <li><a href="#">One more separated link</a></li>
+              <li style="font-size:0px;line-height:0px;" hidden="hidden"></li>
+              <li><a class="side" data-toggle="offcanvas"routerLink="/hospitality/call-center">Call Center</a></li>
+              <li><a class="side" data-toggle="offcanvas"routerLink="/hospitality/online-yahoo">Online Yahoo</a></li>
+              <li><a class="side" data-toggle="offcanvas"routerLink="/hospitality/sms-center">SMS Center</a></li>
             </ul>
           </li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Kemahasiswaan <span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
-              <li class="dropdown-header">Dropdown heading</li>
-              <li><a href="#">Action</a></li>
-              <li><a href="#">Another action</a></li>
-              <li><a href="#">Something else here</a></li>
-              <li><a href="#">Separated link</a></li>
-              <li><a href="#">One more separated link</a></li>
+              <li style="font-size:0px;line-height:0px;" hidden="hidden"></li>
+              <li><a class="side" data-toggle="offcanvas"routerLink="/kemahasiswaan/beasiswa">Beasiswa</a></li>
+              <li><a class="side" data-toggle="offcanvas"routerLink="/kemahasiswaan/komunitas">Komunitas</a></li>
+              <li><a class="side" data-toggle="offcanvas"routerLink="/kemahasiswaan/mawapres">Mawapres</a></li>
+              <li><a class="side" data-toggle="offcanvas"routerLink="/kemahasiswaan/organisasi-atau-himpunan-mahasiswa">Organisasi/Himpunan Mahasiswa</a></li>
+              <li><a class="side" data-toggle="offcanvas"routerLink="/kemahasiswaan/penelitian-atau-karya-ilmiah">Penelitian/Karya class="side" data-toggle="offcanvas"Ilmiah</a></li>
+              <li><a class="side" data-toggle="offcanvas"routerLink="/kemahasiswaan/unit-kegiatan-mahasiswa">Unit Kegiatan Mahasiswa</a></li>
             </ul>
           </li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Kepegawaian <span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
-              <li class="dropdown-header">Dropdown heading</li>
-              <li><a href="#">Action</a></li>
-              <li><a href="#">Another action</a></li>
-              <li><a href="#">Something else here</a></li>
-              <li><a href="#">Separated link</a></li>
-              <li><a href="#">One more separated link</a></li>
+              <li style="font-size:0px;line-height:0px;" hidden="hidden"></li>
+              <li><a class="side" data-toggle="offcanvas"routerLink="/kepegawaian/beban-kinerja-dosen">Beban Kinerja class="side" data-toggle="offcanvas"Dosen</a></li>
+              <li><a class="side" data-toggle="offcanvas"routerLink="/kepegawaian/informasi-dosen">Informasi Dosen</a></li>
+              <li><a class="side" data-toggle="offcanvas"routerLink="/kepegawaian/informasi-pegawai">Informasi Pegawai</a></li>
+              <li><a class="side" data-toggle="offcanvas"routerLink="/kepegawaian/serdos">Serdos</a></li>
             </ul>
           </li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Keuangan <span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
-              <li class="dropdown-header">Dropdown heading</li>
-              <li><a href="#">Action</a></li>
-              <li><a href="#">Another action</a></li>
-              <li><a href="#">Something else here</a></li>
-              <li><a href="#">Separated link</a></li>
-              <li><a href="#">One more separated link</a></li>
+              <li style="font-size:0px;line-height:0px;" hidden="hidden"></li>
+              <li><a class="side" data-toggle="offcanvas"routerLink="/keuangan/rekening-pembayaran">Rekening Pembayaran</a></li>
+              <li><a class="side" data-toggle="offcanvas"routerLink="/keuangan/status-pembayaran">Status Pembayaran</a></li>
+              <li><a class="side" data-toggle="offcanvas"routerLink="/keuangan/tagihan">Tagihan</a></li>
             </ul>
           </li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Laboratorium <span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
-              <li class="dropdown-header">Dropdown heading</li>
-              <li><a href="#">Action</a></li>
-              <li><a href="#">Another action</a></li>
-              <li><a href="#">Something else here</a></li>
-              <li><a href="#">Separated link</a></li>
-              <li><a href="#">One more separated link</a></li>
+              <li style="font-size:0px;line-height:0px;" hidden="hidden"></li>
+              <li><a class="side" data-toggle="offcanvas"routerLink="/laboratorium/jenis-dan-kegiatan">Jenis dan Kategori</a></li>
+              <li><a class="side" data-toggle="offcanvas"routerLink="/laboratorium/letak-laboratorium">Letak Laboratorium</a></li>
             </ul>
           </li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Layanan Poliklinik <span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
-              <li class="dropdown-header">Dropdown heading</li>
-              <li><a href="#">Action</a></li>
-              <li><a href="#">Another action</a></li>
-              <li><a href="#">Something else here</a></li>
-              <li><a href="#">Separated link</a></li>
-              <li><a href="#">One more separated link</a></li>
+              <li style="font-size:0px;line-height:0px;" hidden="hidden"></li>
+              <li><a class="side" data-toggle="offcanvas"routerLink="/layanan-poliklinik/layanan-poliklinik">Layanan Poliklinik</a></li>
             </ul>
           </li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Parkir <span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
-              <li class="dropdown-header">Dropdown heading</li>
-              <li><a href="#">Action</a></li>
-              <li><a href="#">Another action</a></li>
-              <li><a href="#">Something else here</a></li>
-              <li><a href="#">Separated link</a></li>
-              <li><a href="#">One more separated link</a></li>
+              <li style="font-size:0px;line-height:0px;" hidden="hidden"></li>
+              <li><a class="side" data-toggle="offcanvas"routerLink="parkir/kehilangan">Kehilangan</a></li>
+              <li><a class="side" data-toggle="offcanvas"routerLink="parkir/keluar-masuk">Keluar Masuk</a></li>
+              <li><a class="side" data-toggle="offcanvas"routerLink="parkir/tempat-parkir">Tempat Parkir</a></li>
             </ul>
           </li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Penelitian dan Pengabdian <span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
-              <li class="dropdown-header">Dropdown heading</li>
-              <li><a href="#">Action</a></li>
-              <li><a href="#">Another action</a></li>
-              <li><a href="#">Something else here</a></li>
-              <li><a href="#">Separated link</a></li>
-              <li><a href="#">One more separated link</a></li>
+              <li style="font-size:0px;line-height:0px;" hidden="hidden"></li>
+              <li><a class="side" data-toggle="offcanvas"routerLink="penelitian-dan-pengabdian/penelitian">Penelitian</a></li>
+              <li><a class="side" data-toggle="offcanvas"routerLink="penelitian-dan-pengabdian/pengabdian">Pengabdian</a></li>
+              <li><a class="side" data-toggle="offcanvas"routerLink="penelitian-dan-pengabdian/rencana-induk-penelitian">RIP (Rencana Induk Penelitian)</a></li>
             </ul>
           </li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pengumuman Akademik <span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
-              <li class="dropdown-header">Dropdown heading</li>
-              <li><a href="#">Action</a></li>
-              <li><a href="#">Another action</a></li>
-              <li><a href="#">Something else here</a></li>
-              <li><a href="#">Separated link</a></li>
-              <li><a href="#">One more separated link</a></li>
+              <li style="font-size:0px;line-height:0px;" hidden="hidden"></li>
+              <li><a class="side" data-toggle="offcanvas"routerLink="pengumuman-akademik/berita">Berita</a></li>
+              <li><a class="side" data-toggle="offcanvas"routerLink="pengumuman-akademik/internal">Internal</a></li>
             </ul>
           </li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Percetakan <span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
-              <li class="dropdown-header">Dropdown heading</li>
-              <li><a href="#">Action</a></li>
-              <li><a href="#">Another action</a></li>
-              <li><a href="#">Something else here</a></li>
-              <li><a href="#">Separated link</a></li>
-              <li><a href="#">One more separated link</a></li>
+              <li style="font-size:0px;line-height:0px;" hidden="hidden"></li>
+              <li><a class="side" data-toggle="offcanvas"routerLink="percetakan/lokasi-percetakan">Lokasi Percetakan</a></li>
+              <li><a class="side" data-toggle="offcanvas"routerLink="percetakan/modul-kuliah">Modul Kuliah</a></li>
             </ul>
           </li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Perpustakaan <span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
-              <li class="dropdown-header">Dropdown heading</li>
-              <li><a href="#">Action</a></li>
-              <li><a href="#">Another action</a></li>
-              <li><a href="#">Something else here</a></li>
-              <li><a href="#">Separated link</a></li>
-              <li><a href="#">One more separated link</a></li>
+              <li style="font-size:0px;line-height:0px;" hidden="hidden"></li>
+              <li><a class="side" data-toggle="offcanvas"routerLink="perpustakaan/buku-text">Buku Text</a></li>
+              <li><a class="side" data-toggle="offcanvas"routerLink="perpustakaan/e-book">e-Book</a></li>
+              <li><a class="side" data-toggle="offcanvas"routerLink="perpustakaan/jurnal">Jurnal</a></li>
+              <li><a class="side" data-toggle="offcanvas"routerLink="perpustakaan/letak-perpustakaan">Letak Perpustakaan</a></li>
+              <li><a class="side" data-toggle="offcanvas"routerLink="perpustakaan/prosedur-pengembalian">Prosedur Pengembalian</a></li>
+              <li><a class="side" data-toggle="offcanvas"routerLink="perpustakaan/prosedur-pinjam">Prosedur Pinjam</a></li>
+              <li><a class="side" data-toggle="offcanvas"routerLink="perpustakaan/skripsi-atau-tugas-akhir">Skripsi/Tugas Akhir</a></li>
             </ul>
           </li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Semester Pendek <span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
-              <li class="dropdown-header">Dropdown heading</li>
-              <li><a href="#">Action</a></li>
-              <li><a href="#">Another action</a></li>
-              <li><a href="#">Something else here</a></li>
-              <li><a href="#">Separated link</a></li>
-              <li><a href="#">One more separated link</a></li>
+              <li style="font-size:0px;line-height:0px;" hidden="hidden"></li>
+              <li><a class="side" data-toggle="offcanvas"routerLink="semester-pendek/absensi">Absensi</a></li>
+              <li><a class="side" data-toggle="offcanvas"routerLink="semester-pendek/pendaftaran-sp">Pendaftaran SP</a></li>
+              <li><a class="side" data-toggle="offcanvas"routerLink="semester-pendek/proses-krs">Proses KRS</a></li>
+              <li><a class="side" data-toggle="offcanvas"routerLink="semester-pendek/ujian-akhir-semester">Ujian Akhir Semester</a></li>
+              <li><a class="side" data-toggle="offcanvas"routerLink="semester-pendek/ujian-tengah-semester">Ujian Tengah Semester</a></li>
             </ul>
           </li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Semester Reguler <span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
-              <li class="dropdown-header">Dropdown heading</li>
-              <li><a href="#">Action</a></li>
-              <li><a href="#">Another action</a></li>
-              <li><a href="#">Something else here</a></li>
-              <li><a href="#">Separated link</a></li>
-              <li><a href="#">One more separated link</a></li>
+              <li style="font-size:0px;line-height:0px;" hidden="hidden"></li>
+              <li><a class="side" data-toggle="offcanvas"routerLink="semester-reguler/absensi">Absensi</a></li>
+              <li><a class="side" data-toggle="offcanvas"routerLink="semester-reguler/pendaftaran-semester-pendek">Pendaftaran Semester Pendek</a></li>
+              <li><a class="side" data-toggle="offcanvas"routerLink="semester-reguler/proses-krs">Proses KRS</a></li>
+              <li><a class="side" data-toggle="offcanvas"routerLink="semester-reguler/ujian-tengah-dan-akhir-semester">Ujian Tengah dan Akhir Semester</a></li>
             </ul>
           </li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Si Adin <span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
-              <li class="dropdown-header">Dropdown heading</li>
-              <li><a href="#">Action</a></li>
-              <li><a href="#">Another action</a></li>
-              <li><a href="#">Something else here</a></li>
-              <li><a href="#">Separated link</a></li>
-              <li><a href="#">One more separated link</a></li>
+              <li style="font-size:0px;line-height:0px;" hidden="hidden"></li>
+              <li><a class="side" data-toggle="offcanvas"routerLink="si-adin/e-mail">E-mail</a></li>
+              <li><a class="side" data-toggle="offcanvas"routerLink="si-adin/jenis-dan-kategori">Jenis & Kategori</a></li>
+              <li><a class="side" data-toggle="offcanvas"routerLink="si-adin/layanan">Layanan</a></li>
+              <li><a class="side" data-toggle="offcanvas"routerLink="si-adin/login">Login</a></li>
             </ul>
           </li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Wisuda <span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
               <li class="dropdown-header">Dropdown heading</li>
-              <li><a href="#">Action</a></li>
-              <li><a href="#">Another action</a></li>
-              <li><a href="#">Something else here</a></li>
-              <li><a href="#">Separated link</a></li>
-              <li><a href="#">One more separated link</a></li>
+              <li><a class="side" data-toggle="offcanvas"routerLink="wisuda/hal-hal-penting">Hal-hal penting</a></li>
+              <li><a class="side" data-toggle="offcanvas"routerLink="wisuda/mekanisme-wisuda">Mekanisme Wisuda</a></li>
+              <li><a class="side" data-toggle="offcanvas"routerLink="wisuda/syarat-pendaftaran-wisuda">Syarat Pendaftaran Wisuda</a></li>
+              <li><a class="side" data-toggle="offcanvas"routerLink="wisuda/tanggal-pelaksanaan">Tanggal Pelaksanaan</a></li>
             </ul>
           </li>
           <li>
-              <a href="#anjay">Ask A Question</a>
+              <a class="side" data-toggle="offcanvas"routerLink="/ask-a-question">Ask A Question ! </a>
           </li>
       </ul>
   </nav>
