@@ -22,18 +22,18 @@ import { SemesterPendekModule } from './semester-pendek/semester-pendek.module';
 import { SemesterRegulerModule } from './semester-reguler/semester-reguler.module';
 import { SiAdinModule } from './si-adin/si-adin.module';
 import { WisudaModule } from './wisuda/wisuda.module';
+import { AskAQuestionModule } from './ask-a-question/ask-a-question.module';
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
-import { AskAQuestionComponent } from './ask-a-question/ask-a-question.component';
 
 const routingAplikasi: Routes = [
   { path: "akademik", redirectTo: "/transaksi", pathMatch: "full"},
-  { path: "", component: HomeComponent },
-  { path: "ask-a-question", component: AskAQuestionComponent },
+  { path: "", component: HomeComponent }
+
 ]
 
 
@@ -43,8 +43,7 @@ const routingAplikasi: Routes = [
     NavbarComponent,
     SidebarComponent,
     FooterComponent,
-    HomeComponent,
-    AskAQuestionComponent
+    HomeComponent
   ],
   imports: [
     BrowserModule,
@@ -68,6 +67,7 @@ const routingAplikasi: Routes = [
     SemesterRegulerModule,
     SiAdinModule,
     WisudaModule,
+    AskAQuestionModule,
     RouterModule.forRoot(routingAplikasi)
   ],
   providers: [],

@@ -36,3 +36,21 @@ $(document).ready(function () {
         $('#wrapper').toggleClass('toggled');
   });
 });
+
+// Trigger Ask A Question
+$(document).ready(function(){
+  var trigger = $('.modal'),
+    isClosed = false;
+
+    trigger.click(function () {
+      ask();
+    });
+
+    function ask() {
+      trigger.addClass('in');
+      isClosed = false;
+    }
+    if (isClosed==false) {
+      $("#myModal").modal('show');
+    }
+});
